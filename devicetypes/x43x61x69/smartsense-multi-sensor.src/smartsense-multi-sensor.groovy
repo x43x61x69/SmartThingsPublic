@@ -17,7 +17,7 @@ import physicalgraph.zigbee.clusters.iaszone.ZoneStatus
 import physicalgraph.zigbee.zcl.DataType
 
 metadata {
-	definition(name: "SmartSense Multi Sensor", namespace: "smartthings", author: "x43x61x69", runLocally: true, minHubCoreVersion: '000.017.0012', executeCommandsLocally: false, mnmn: "SmartThings", vid: "generic-contact-2") {
+	definition(name: "SmartSense Multi Sensor with Thermostat Capability", namespace: "smartthings", author: "x43x61x69", runLocally: true, minHubCoreVersion: '000.017.0012', executeCommandsLocally: false, mnmn: "SmartThings", vid: "generic-contact-2") {
 
 		capability "Three Axis"
 		capability "Battery"
